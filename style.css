@@ -4,7 +4,24 @@
     box-sizing: border-box;
 }
 
+h1{
+    color: rgb(79, 105, 255);
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+h2{
+    color:rgb(0, 38, 255);
+    font-weight: 500;
+    opacity: 0.8;
+}
+h3{
+    color: rgb(79, 105, 255);
+    font-weight: 600;
+    opacity: 0.8;
+}
 main {
+    font-family: "Poppins", sans-serif;
     min-height: 100vh;
     background: linear-gradient(to right top, #ffc7f2, #caa1ff);
     display: flex;
@@ -20,6 +37,7 @@ main {
     border-radius: 2rem;
     z-index: 3;
     backdrop-filter: blur(2rem);
+    display: flex;
 }
 
 .circle1,
@@ -45,6 +63,75 @@ main {
 }
 
 img {
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 10vh;
+    max-height: 10vh;
+}
+
+.linkimg{
+    max-width:5vh;
+    max-height:5vh;
+}
+.dashboard{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+    border-radius: 2rem;
+}
+.user img{
+    border-radius: 2rem;
+}
+.link{
+    display: flex;
+    margin: 0rem 0rem;
+    padding: 0.3rem 5rem;
+    align-items: center;
+}
+.link h5{
+    padding: 0rem 2rem;
+}
+.music{
+    flex: 2;
+}
+.pro{
+    background: linear-gradient(to right top, #ffc7f2, #caa1ff);
+    border-radius: 2rem;
+    color:white;
+    padding: 1rem;
+    position: relative;
+}
+.pro h2{
+    width: 60%;
+    color: white;
+    font-weight: 600;
+}
+.pro img{
+    position: absolute;
+    top: 5%;
+    left: 60%;
+}
+.music h1{
+    margin-left: 10rem;
+}
+.albums{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.album{
+    display: flex;
+    background: linear-gradient(to left top, rgba(255,255,255,1), rgba(255,255,255,0.5));
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 6px 6px 80px rgba(255,255,255,0.2);
+}
+.albumimg{
+    border-radius: 0.3rem;
+}
+.info{
+    margin-left: 3rem;
 }
